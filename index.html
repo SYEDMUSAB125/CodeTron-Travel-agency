@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#"></a>Home</li>
+            <li><a href="#"></a>Tourse</li>
+            <li><a href="#"></a>Explore</li>
+            <li><a href="#"></a>About</li>
+            <li class="ctn"><a href="#"></a> Contect</li>
+            
+        </ul>
+        <img src="./img.jpg" alt="" class="menu-btn">
+
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Explore The Colorful Words</h2>
+            <div class="line"></div>
+            <h1>A WONDERFUL GIFT</h1>
+            <a href="#" class="ctn"> Learn More</a>
+
+        </div>
+    </header> 
+    <!-- Events -->
+    <section class="events">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img class=" img6" src="./a2.avif" alt="">
+                <h4>Everest Camp Trek</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quo temporibus necessitatibus?</p>
+                <a href="#" class="ctn">Lerarn More</a>
+            </div>
+            <div class="col">
+                <img class="img6" src="./img1.jpg" alt="">
+                <h4>Wolking Holidays</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quo temporibus necessitatibus?</p>
+                <a href="#" class="ctn">Lerarn More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="explore">
+    <div class="explore-content">
+        <h1>EXPLORE THE WORLD</h1>
+        <div class="line"></div>
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet harum ratione praesentium molestiae eaque architecto officia aliquam similique, voluptates perspiciatis?</P>
+        <a href="#" class="ctn">Learn More</a>
+    </div>
+
+    </section> 
+    <!-- tours -->
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>UPCOMING TOURS & DESTINATION</h1>
+                <div class="line"></div>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima assumenda incidunt perspiciatis eaque autem deleniti laborum eveniet expedita distinctio magni maiores fugiat possimus doloremque, asperiores exercitationem culpa? Excepturi, ipsam tempora?</P>
+                <a href="#" class="ctn"> Learn More</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img class="img5" src="./n1.jpg" alt="">
+                    <img class="img5" src="./n2.jpg!d" alt="">
+                    <img class="img5" src="./n3.jpg" alt="">
+                    <img class="img5" src="./a1.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+
+    <section class="footer">
+        <p>HOUSE NO 22 ORANGI TOWN KARACHI | Phone:03482103200 | Email: contentW@gmail.com</p>
+        <p>Copyrigth 2020 Outdoor Adventure</p>
+
+    </section>
+
+
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+
+        menuBtn.addEventlistener('click',()=>{navlinks.classList.toggle('mobile-menu')})
+    </script>
+    
+</body>
+</html>
