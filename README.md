@@ -15,7 +15,7 @@ This project is aimed at creating a modern and user-friendly website for our tra
 
 ## Screenshots
 
-![Homepage]()
+![Homepage](upload.png)
 
 ## Technologies Used
 
